@@ -26,7 +26,7 @@ gulp.task('test', ['typescript'], function() {
     .pipe(mocha());
 });
 
-gulp.task('npm', ['test'], function (done) {
+gulp.task('publish', ['test'], function (done) {
   spawn('npm', ['publish'], { stdio: 'inherit' }).on('close', done);
 });
 

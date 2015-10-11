@@ -1,6 +1,6 @@
 # github-webhooker
 
-Node module to handle github webhooks, inspired from [github-webhook-handler](https://github.com/rvagg/github-webhook-handler).
+This catchy name hides node module to handle github webhooks, inspired from [github-webhook-handler](https://github.com/rvagg/github-webhook-handler).
 
 It's more like a library that will help you to handle [github webhooks](https://developer.github.com/webhooks/), all on the same URL.
 

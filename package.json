@@ -1,6 +1,6 @@
 {
   "name": "github-webhooker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node module to handle github webhooks.",
   "main": "github-webhooker.js",
   "dependencies": {},
