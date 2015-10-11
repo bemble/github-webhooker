@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es5"
+  },
+  "filesGlob": [
+    "./**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "files": [
+    "github-webhooker.ts",
+    "lib/Handler.ts",
+    "lib/Repository.ts",
+    "lib/Request.ts",
+    "tests/Handler.spec.ts",
+    "typings/node/node.d.ts",
+    "typings/tsd.d.ts"
+  ],
+  "exclude": []
+}

@@ -1,0 +1,1 @@
+var Handler_1=require("./lib/Handler");module.exports=new Handler_1.Handler;
