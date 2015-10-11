@@ -25,7 +25,7 @@ export class Handler extends events.EventEmitter {
         var event:string = githubRequest.getEvent();
         var emitData = {
           name: event,
-          request: request,
+          request: githubRequest,
           repository : repo
         };
 
